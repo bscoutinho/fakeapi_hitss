@@ -1,16 +1,37 @@
 {
-  "posts": [
+  "notificacoes": [
     {
       "id": 1,
-      "title": "Post 1"
+      "titulo": "Título 1",
+      "descricao": "descricao 1",
+      "data": "27/02/2019",
+      "lida": false
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "titulo": "Título 2",
+      "descricao": "descricao 2",
+      "data": "12/05/2019",
+      "lida": true
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "titulo": "Título 3",
+      "descricao": "descricao 3",
+      "data": "21/08/2019",
+      "lida": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
     }
   ],
   "profile": {
